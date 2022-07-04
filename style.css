@@ -269,7 +269,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
+    content: "";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -555,6 +555,24 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+
+#project{
+    display: flex;
+    justify-content: space-around;
+}
+
+#projectButton{
+    padding: 5px;
+    cursor: pointer;
+    background-color:  rgb(4, 0, 248);
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
 
 
 /* responsive media query start */
